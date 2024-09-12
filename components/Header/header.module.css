@@ -1,0 +1,62 @@
+.headerOverlayDiv {
+    position: absolute;
+    top: 420px;
+    /* Adjust as needed */
+    left: 64px;
+    /* Adjust as needed */
+    width: 598px;
+    height: 250px;
+    background: #ffffff;
+    /* Semi-transparent background */
+    color: white;
+    border-radius: 10px;
+    /* Optional: for rounded corners */
+    z-index: 10;
+    /* Ensures it appears on top */
+    border: 1px solid black
+}
+
+.headerContainer {
+    position: relative;
+    width: 1216px;
+    height: 664px;
+    align-items: center;
+
+}
+
+.h5 {
+    background-color: #4B6BFB;
+    color: #ffffff;
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+
+
+}
+
+.author {
+    display: flex;
+    flex-flow: row;
+    margin-left: 10px;
+}
+
+.p {
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+
+}
+
+.h6 {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: grey;
+    font-size: medium;
+    font-family: sans-serif
+}

@@ -1,0 +1,35 @@
+
+
+.navbarContainer {
+  width: 1918px;
+  height: 100px;
+  box-sizing: border-box; /* Ensures padding and border are included in the inner div's width and height */
+  padding: 13px 350px; /* Adjust as needed */
+  margin-left: 90px;
+
+}
+
+.navbar {
+  background-color: #ffffff;
+  /* Dark background for the navbar */
+  color: #fff;
+  /* White text color */
+  border-radius: 5px;
+  /* Rounded corners */
+  width: 1218px;
+  height: 36px;
+}
+
+.navbarList {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+
+}
+
+.searchBar {
+  background-color: rgb(246, 235, 235);
+  height: 25px;
+  width: 150px;
+  border: none;
+}

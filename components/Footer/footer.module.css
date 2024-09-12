@@ -1,0 +1,80 @@
+.footer {
+    background-color: #e1e1e1;
+    width: 1920px;
+    height: 500px;
+    padding: 64px 350px 0 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    gap: 60px;
+    margin-left: 90px;
+    /* Ensures padding and border are included in the inner div's width and height */
+
+}
+
+.footerParts {
+    display: flex;
+    width: 1216px;
+    height: 254px;
+    flex-flow: row;
+    gap: 10px;
+
+}
+
+.about {
+    height: 236px;
+    width: 289px;
+    text-align: left;
+    font-size: small;
+    color: #736f6f;
+}
+
+.middle {
+    height: 236px;
+    width: 495px;
+    font-size: small;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    color: #736f6f;
+}
+
+.last {
+    height: 254px;
+    width: 392px;
+    font-size: small;
+    align-content: center;
+    text-align: center;
+
+}
+
+.b {
+    color: black;
+
+}
+
+.button {
+    background-color: #4226b5;
+    color: white;
+    width: 320px;
+    height: 48px;
+}
+.input {
+    width: 320px;
+    height: 48px;
+}
+
+.Copyright {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.TermsAndPrivacy {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 789px;
+    height: 24;
+    color: #736f6f
+}
