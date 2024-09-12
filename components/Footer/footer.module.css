@@ -7,7 +7,7 @@
     display: flex;
     flex-flow: column;
     gap: 60px;
-    margin-left: 90px;
+    margin-left: 200px;
     /* Ensures padding and border are included in the inner div's width and height */
 
 }

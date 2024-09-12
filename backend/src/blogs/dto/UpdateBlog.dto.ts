@@ -18,4 +18,7 @@ export class UpdateBlogDto {
 
   @IsOptional()
   category?: string;
+
+  @IsOptional()
+  content?: string;
 }

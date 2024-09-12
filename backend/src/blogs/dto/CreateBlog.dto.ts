@@ -24,4 +24,8 @@ export class CreateBlogDto {
   @IsNotEmpty()
   @IsString()
   category: string;
+
+  @IsNotEmpty()
+  @IsString()
+  content: string;
 }
