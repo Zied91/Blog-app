@@ -38,7 +38,11 @@
     align-items: center;
     /* Centers horizontally */
     flex-flow: column;
-    width: 1216px;
-    height: 1824px;
+    width: 800px;
+    height: 3348px;
     background-color: white;
+}
+
+.content {
+    align-items: center;
 }

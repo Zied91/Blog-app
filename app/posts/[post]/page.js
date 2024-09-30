@@ -34,7 +34,7 @@ const PostDetailPage = async ({ params }) => {
 
             <img src={`/images/posts/${postItem.image}`} alt={postItem.title} />
           </header>
-          <p>{postItem.content}</p>
+          <p className={styles.content}>{postItem.content}</p>
         </div>
       </article>
     </>
